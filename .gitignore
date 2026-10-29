@@ -1,0 +1,7 @@
+# built app (rebuild with scripts/build_app.sh; a copy lives in ~/Desktop/Toolbox)
+*.app/
+*.zip
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

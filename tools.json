@@ -1,0 +1,167 @@
+{
+  "offline_root": "~/Documents/Claude_code/Website Design/Offline Tools",
+  "toolbox_root": "~/Desktop/Toolbox",
+  "self": {
+    "folder": "Toolbox Launcher",
+    "app": "Toolbox Launcher.app"
+  },
+  "tools": [
+    {
+      "key": "biocanvas",
+      "name": "BioCanvas",
+      "what": "Scientific figures",
+      "port": 8780,
+      "folder": "BioCanvas",
+      "app": "BioCanvas.app",
+      "url": "http://localhost:8780",
+      "version": {
+        "path": "/api/health",
+        "field": "version"
+      }
+    },
+    {
+      "key": "cell-surveillance",
+      "name": "Cell Surveillance",
+      "what": "Live-cell tracking",
+      "port": 8531,
+      "folder": "Cell Surveillance",
+      "app": "Cell Surveillance.app",
+      "url": "http://localhost:8531"
+    },
+    {
+      "key": "clone-bench",
+      "name": "Clone Bench",
+      "what": "Cloning and primers",
+      "port": 8768,
+      "folder": "Clone Bench",
+      "app": "Clone Bench.app",
+      "url": "http://localhost:8768",
+      "version": {
+        "path": "/api/settings",
+        "field": "version"
+      }
+    },
+    {
+      "key": "codon-atlas",
+      "name": "Codon Atlas",
+      "what": "Genetic-code prediction",
+      "port": 8784,
+      "folder": "Codon Atlas",
+      "app": "Codon Atlas.app",
+      "url": "http://localhost:8784",
+      "version": {
+        "path": "/api/state",
+        "field": "version"
+      }
+    },
+    {
+      "key": "ihcq",
+      "name": "IHCq",
+      "what": "IHC quantification",
+      "port": 8770,
+      "folder": "IHCq",
+      "app": "IHCq.app",
+      "url": "http://127.0.0.1:8770"
+    },
+    {
+      "key": "lamin-mesh",
+      "name": "Lamin Mesh Analyzer",
+      "what": "Nuclear lamina meshwork",
+      "port": 8599,
+      "folder": "Lamin_mesh",
+      "app": "Lamin Mesh Analyzer.app",
+      "url": "http://localhost:8599"
+    },
+    {
+      "key": "massspec-bench",
+      "name": "MassSpec Bench",
+      "what": "LC-MS and GC-MS",
+      "port": 8766,
+      "folder": "MassSpec Bench",
+      "app": "MassSpec Bench.app",
+      "url": "http://localhost:8766",
+      "version": {
+        "path": "/api/settings",
+        "field": "version"
+      }
+    },
+    {
+      "key": "paper-reader",
+      "name": "Paper Reader",
+      "what": "Papers, explained",
+      "port": 8769,
+      "folder": "Paper Reader",
+      "app": "Paper Reader.app",
+      "url": "http://localhost:8769",
+      "version": {
+        "path": "/api/health",
+        "field": "version"
+      }
+    },
+    {
+      "key": "pride-packager",
+      "name": "PRIDE Packager",
+      "what": "PRIDE submission packages",
+      "port": 8782,
+      "folder": "PRIDE Packager",
+      "app": "PRIDE Packager.app",
+      "url": "http://localhost:8782",
+      "version": {
+        "path": "/api/health",
+        "field": "version"
+      }
+    },
+    {
+      "key": "python-lab",
+      "name": "Python Lab",
+      "what": "Learn Python for biology",
+      "port": 8786,
+      "folder": "Python Lab",
+      "app": "Python Lab.app",
+      "url": "http://localhost:8786",
+      "version": {
+        "path": "/api/state",
+        "field": "version"
+      }
+    },
+    {
+      "key": "recode-detector",
+      "name": "Recode Detector",
+      "what": "Genetic recoding and proteomics",
+      "port": 8775,
+      "folder": "Recode Detector",
+      "app": "Recode Detector.app",
+      "url": "http://localhost:8775",
+      "version": {
+        "path": "/api/state",
+        "field": "version"
+      }
+    },
+    {
+      "key": "rnaseq-bench",
+      "name": "RNAseq Bench",
+      "what": "Bulk and single-cell RNA-seq",
+      "port": 8765,
+      "folder": "RNAseq Bench",
+      "app": "RNAseq Bench.app",
+      "url": "http://localhost:8765",
+      "version": {
+        "path": "/api/settings",
+        "field": "version"
+      }
+    },
+    {
+      "key": "structure-bench",
+      "name": "Structure Bench",
+      "what": "Protein structure",
+      "port": 8767,
+      "folder": "Structure Bench",
+      "app": "Structure Bench.app",
+      "url": "http://localhost:8767",
+      "version": {
+        "path": "/api/settings",
+        "field": "version"
+      }
+    }
+  ]
+}
