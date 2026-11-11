@@ -42,6 +42,19 @@
       }
     },
     {
+      "key": "crispr-hts-validator",
+      "name": "CRISPR HTS Validator",
+      "what": "CRISPR screen analysis",
+      "port": 8788,
+      "folder": "CRISPR HTS Validator",
+      "app": "CRISPR HTS Validator.app",
+      "url": "http://localhost:8788",
+      "version": {
+        "path": "/api/health",
+        "field": "version"
+      }
+    },
+    {
       "key": "codon-atlas",
       "name": "Codon Atlas",
       "what": "Genetic-code prediction",
