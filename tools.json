@@ -55,6 +55,19 @@
       }
     },
     {
+      "key": "fate-map",
+      "name": "Fate Map",
+      "what": "iPSC differentiation guide",
+      "port": 8793,
+      "folder": "Fate Map",
+      "app": "Fate Map.app",
+      "url": "http://localhost:8793",
+      "version": {
+        "path": "/api/health",
+        "field": "version"
+      }
+    },
+    {
       "key": "ihcq",
       "name": "IHCq",
       "what": "IHC quantification",
